@@ -23,7 +23,7 @@ print('')
 
 print(f'For windows config file:')
 for number in range(int(port), int(port)+usable_ips):
-	print(f'http_port {ip}:{number}')
+	print(f'http_port {number}')
 
 print('')
 
